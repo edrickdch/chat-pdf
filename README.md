@@ -4,7 +4,7 @@
 
 Link: 
 
-Tutorial going over the design used for the app in order to enable chatting with your PDF using LangChain, ChromaDB and OpenAI's API.
+This tutorial goes over the architecture and concepts used for easily chatting with your PDF using LangChain, ChromaDB and OpenAI's API.
 
 ## Getting Started
 
@@ -49,3 +49,10 @@ python src/ingest.py
 ```bash
 python src/single-pdf.py
 ```
+
+## Useful Links
+
+- PDF: https://www.imf.org/en/Publications/WEO/Issues/2023/04/11/world-economic-outlook-april-2023 
+- OpenAI: https://platform.openai.com/ 
+- LangChain: https://python.langchain.com/en/latest/index.html  
+- Chroma DB: https://docs.trychroma.com/ 
