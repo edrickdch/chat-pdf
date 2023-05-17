@@ -17,7 +17,7 @@ You will need Python and Pipenv
 1. Clone the repository:
 
 ```bash
-git clone https://github.com//chat-pdf.git
+git clone https://github.com/edrickdch/chat-pdf
 ```
 
 2. Navigate to the project directory:
