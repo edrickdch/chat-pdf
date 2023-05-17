@@ -1,12 +1,12 @@
-# Chat with your PDF 
+# 💬 Chat with your PDF 
 
-## Architecture
+## 👷️ Architecture
 
 Link: 
 
 This tutorial goes over the architecture and concepts used for easily chatting with your PDF using LangChain, ChromaDB and OpenAI's API.
 
-## Getting Started
+## 💻 Getting Started
 
 ### Prerequisites
 
@@ -50,9 +50,15 @@ python src/ingest.py
 python src/single-pdf.py
 ```
 
-## Useful Links
+## 🔗 Useful Links
 
 - PDF: https://www.imf.org/en/Publications/WEO/Issues/2023/04/11/world-economic-outlook-april-2023 
 - OpenAI: https://platform.openai.com/ 
 - LangChain: https://python.langchain.com/en/latest/index.html  
 - Chroma DB: https://docs.trychroma.com/ 
+
+## 💌 Newsletter
+
+👇 Subscribe to the newsletter if you're interested in building more AI applications 
+
+https://practical-ai-builder.beehiiv.com/
