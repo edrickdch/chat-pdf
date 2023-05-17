@@ -49,8 +49,3 @@ python src/ingest.py
 ```bash
 python src/single-pdf.py
 ```
-
-
-
-
-
