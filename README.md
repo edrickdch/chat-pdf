@@ -38,13 +38,19 @@ pipenv install
 pipenv shell
 ```
 
-5. Run the ingestion:
+5. Create a .env file with your OpenAI API key (Replace with your key):
+
+```bash
+cat 'OPENAI_API_KEY="sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXX"' >  .env
+```
+
+6. Run the ingestion:
 
 ```bash
 python src/ingest.py
 ```
 
-6. Run the conversation:
+7. Run the conversation:
 
 ```bash
 python src/single-pdf.py
