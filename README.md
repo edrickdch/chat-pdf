@@ -2,7 +2,7 @@
 
 ## 👷️ Architecture
 
-Link: 
+Link: https://youtu.be/FuqdVNB_8c0
 
 This tutorial goes over the architecture and concepts used for easily chatting with your PDF using LangChain, ChromaDB and OpenAI's API.
 
