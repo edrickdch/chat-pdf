@@ -10,7 +10,9 @@ This tutorial goes over the architecture and concepts used for easily chatting w
 
 ### Prerequisites
 
-You will need Python and Pipenv
+You will need Python and Pipenv.
+
+Note: For **Windows** users, you might need to delete the `Pipfile.lock` before proceeding with the installation.
 
 ### Installation
 
