@@ -1,0 +1,7 @@
+python-dotenv
+pdfplumber
+PyPDF4
+openai
+chromadb
+llama-index
+langchain
