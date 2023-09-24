@@ -1,3 +1,15 @@
+<p align="center">  
+  <img href="daceflow.ai" src="https://github.com/edrickdch/chat-pdf/assets/36369935/1a88ae12-12a2-4407-831d-da9d5f60289a" alt="Daceflow AI logo" width="200"/>
+</p>
+
+<h3 align="center"> Elevate Your Project with Top-Tier AI/LLM Expertise! 🚀 </h3>
+
+<p align="center">
+  <b>Daceflow AI</b> <br>
+  <a href="http://daceflow.ai">Unlock Possibilities →</a> <br>
+  📧 Connect with us: <a href="mailto:edrick@daceflow.ai">edrick@daceflow.ai</a>
+</p>
+
 # 💬 Chat with your PDF 
 
 ## 👷️ Architecture
