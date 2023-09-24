@@ -10,7 +10,7 @@ This tutorial goes over the architecture and concepts used for easily chatting w
 
 ### Prerequisites
 
-You will need Python and Pipenv.
+You will need Python 3.x installed on your machine.
 
 Note: For **Windows** users, you might need to delete the `Pipfile.lock` before proceeding with the installation.
 
@@ -28,31 +28,25 @@ git clone https://github.com/edrickdch/chat-pdf
 cd chat-pdf
 ```
 
-3. Install the required dependencies using Pipenv:
+3. Install the required dependencies:
 
 ```bash
-pipenv install
+pip install --upgrade -r requirements.txt
 ```
 
-4. Activate the Pipenv shell:
-
-```bash
-pipenv shell
-```
-
-5. Create a .env file with your OpenAI API key (Replace with your key):
+4. Create a .env file with your OpenAI API key (Replace with your key):
 
 ```bash
 cat 'OPENAI_API_KEY="sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXX"' >  .env
 ```
 
-6. Run the ingestion:
+5. Run the ingestion:
 
 ```bash
 python src/ingest.py
 ```
 
-7. Run the conversation:
+6. Run the conversation:
 
 ```bash
 python src/single-pdf.py
