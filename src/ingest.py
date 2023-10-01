@@ -1,10 +1,8 @@
-import pdfplumber
-import PyPDF4
 import re
 import os
-import sys
 from typing import Callable, List, Tuple, Dict
-
+import pdfplumber
+import PyPDF4
 from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
@@ -112,8 +110,8 @@ if __name__ == "__main__":
     load_dotenv()
 
     # Step 1: Parse PDF
-    file_path = "src/data/april-2023.pdf"
-    raw_pages, metadata = parse_pdf(file_path)
+    FILE_PATH = "src/data/april-2023.pdf"
+    raw_pages, metadata = parse_pdf(FILE_PATH)
 
     # Step 2: Create text chunks
     cleaning_functions = [
